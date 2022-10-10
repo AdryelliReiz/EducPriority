@@ -1,0 +1,26 @@
+:root {
+  --black: #231e24;
+  --gray: #392d3e;
+  --gray-light: #76697a;
+  --violate-dark: #9d44bb;
+  --violate: #b725e8;
+  --violate-light-1: #e3c9ec;
+  --violate-light-2: #ebdfef;
+  --violate-light-3: #f6f2f8;
+}
+
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: "Poppins", Roboto, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}

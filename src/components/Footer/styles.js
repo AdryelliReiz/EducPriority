@@ -1,14 +1,14 @@
 import styled from "styled-components";
 
 export const Wave = styled.div`
-  background-color: var(--violate-light-3);
+  background-color: var(--violet-light-3);
 `;
 
 export const Footer = styled.section`
   width: 100%;
   margin-top: -20px;
   padding: 2rem 1.5rem 0.5em;
-  background-color: var(--violate-light-1);
+  background-color: var(--violet-light-1);
 
   .links {
     display: flex;

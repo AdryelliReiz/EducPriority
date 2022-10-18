@@ -5,15 +5,11 @@ import { GoTasklist } from "react-icons/go";
 import { MdOutlineInfo } from "react-icons/md";
 
 import * as S from "./styles";
+import Link from "next/link";
 
 export default function Main() {
   return (
     <S.Section>
-      <S.Header>
-        <h1>EducPriority</h1>
-        <p>Seu aprendizado sempre em 1° lugar</p>
-      </S.Header>
-
       <S.Thumb>
         <Image src="/imgs/thumb.svg" width="250" height="250" alt="Thumb" />
       </S.Thumb>
@@ -24,7 +20,11 @@ export default function Main() {
             <h3>Comece agora sua experiência em nossa plataforma</h3>
           </div>
 
-          <button>Vamos-lá</button>
+          <Link href="/contents">
+            <a>
+              <button>Vamos-lá</button>
+            </a>
+          </Link>
 
           <div className="nav-bar">
             <div className="item">

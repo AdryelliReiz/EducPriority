@@ -6,7 +6,3 @@ export const Wrapper = styled.div`
 
   background: var(--violet-light-3);
 `;
-
-export const Section = styled.section`
-  padding: 2rem;
-`;

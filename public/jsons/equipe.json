@@ -1,0 +1,40 @@
+{
+  "squad": [
+    {
+      "id": 1,
+      "name": "Adryelli Reis",
+      "photo": "https://avatars.githubusercontent.com/u/66762439?s=400&u=580b30a710ce5986f549445f46d807336897fbc2&v=4",
+      "task": "Líder & Desenvolvedora"
+    },
+    {
+      "id": 2,
+      "name": "Alana Dantas",
+      "photo": "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg",
+      "task": "Elaboradora de questões"
+    },
+    {
+      "id": 3,
+      "name": "Alex Filho",
+      "photo": "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg",
+      "task": "Pesquisador"
+    },
+    {
+      "id": 4,
+      "name": "Elisangela",
+      "photo": "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg",
+      "task": "Pesquisadora"
+    },
+    {
+      "id": 5,
+      "name": "Jaqueline",
+      "photo": "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg",
+      "task": "Pesquisadora"
+    },
+    {
+      "id": 6,
+      "name": "Lucimaria",
+      "photo": "https://as1.ftcdn.net/v2/jpg/03/53/11/00/1000_F_353110097_nbpmfn9iHlxef4EDIhXB1tdTD0lcWhG9.jpg",
+      "task": "Pesquisadora"
+    }
+  ]
+}

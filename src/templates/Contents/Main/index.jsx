@@ -16,7 +16,7 @@ export default function Main() {
             <h3>Áreas do conhecimento</h3>
 
             <ul>
-              <li onClick={() => setIsMenuOpen(true)}>
+              <li key={1} onClick={() => setIsMenuOpen(true)}>
                 <div className="content allow">
                   <Image
                     src="/imgs/biologia.svg"
@@ -28,7 +28,7 @@ export default function Main() {
                   <p>Biologia</p>
                 </div>
               </li>
-              <li>
+              <li key={2}>
                 <div className="content not-allow">
                   <Image
                     src="/imgs/fisica.svg"
@@ -40,7 +40,7 @@ export default function Main() {
                   <p>Física</p>
                 </div>
               </li>
-              <li>
+              <li key={3}>
                 <div className="content not-allow">
                   <Image
                     src="/imgs/quimica.svg"
@@ -59,7 +59,7 @@ export default function Main() {
             <h3>Materiais complementares</h3>
 
             <ul>
-              <li>
+              <li key={1}>
                 <Link href="/quests">
                   <a>
                     <div className="content allow">
@@ -86,19 +86,23 @@ export default function Main() {
             <div className="topic">
               <h3>1° Nível</h3>
               <ul>
-                <li className="not-allow">Indisponível</li>
+                <li key={1} className="not-allow">
+                  Indisponível
+                </li>
               </ul>
             </div>
             <div className="topic">
               <h3>2° Nível</h3>
               <ul>
-                <li className="not-allow">Indisponível</li>
+                <li key={2} className="not-allow">
+                  Indisponível
+                </li>
               </ul>
             </div>
             <div className="topic">
               <h3>3° Nível</h3>
               <ul>
-                <li>
+                <li key={3}>
                   <Link href="/biology/evolucao-humana">
                     <a>Evolução humana</a>
                   </Link>

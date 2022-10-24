@@ -33,7 +33,7 @@ export default function Main() {
 
         <div className="contributors">
           {equipe.squad.map((member) => (
-            <div id={member.id} className="contributor-perfil">
+            <div id={member.id} key={member.id} className="contributor-perfil">
               <div className="photo">
                 <img src={member.photo} />
               </div>

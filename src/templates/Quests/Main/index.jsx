@@ -11,7 +11,7 @@ export default function Main() {
 
       <div className="quests-container">
         {quests.perguntas.map((quest) => (
-          <div className="quest">
+          <div key={quest.id} className="quest">
             <div className="quest-header">
               <h3>
                 {quest.id} | {quest.tema}
@@ -24,7 +24,7 @@ export default function Main() {
 
             <div className="quest-alternatives">
               {quest.alternativas.map((alternative) => (
-                <div className="alternative">
+                <div key={alternative.letra} className="alternative">
                   {alternative.letra}) {alternative.resposta}
                 </div>
               ))}
@@ -40,7 +40,7 @@ export default function Main() {
         <h2>Respostas</h2>
 
         {quests.respostas.map((resposta) => (
-          <div className="response">
+          <div key={resposta.id} className="response">
             <p>
               <span>Pergunta:</span> {resposta.id} <span>Resposta:</span>{" "}
               {resposta.resposta}

@@ -99,7 +99,7 @@ export default function Main() {
         <h3>Etapas da evolução humana</h3>
 
         <ul>
-          <li>
+          <li key={1}>
             <p>
               <strong>
                 <i>Primatas</i>
@@ -109,7 +109,7 @@ export default function Main() {
               de olhos e insetos.
             </p>
           </li>
-          <li>
+          <li key={2}>
             <p>
               <strong>
                 <i>Hominoides</i>
@@ -121,7 +121,7 @@ export default function Main() {
               endireita o corpo e se move nas patas traseiras.
             </p>
           </li>
-          <li>
+          <li key={3}>
             <p>
               <strong>
                 <i>Hominídeos</i>
@@ -135,7 +135,7 @@ export default function Main() {
               duas mãos e atirava pedras para matar animais.
             </p>
           </li>
-          <li>
+          <li key={4}>
             <p>
               <strong>
                 <i>Homo habilis</i>
@@ -146,7 +146,7 @@ export default function Main() {
               rudimentar. Seus restos mortais só foram encontrados na África.
             </p>
           </li>
-          <li>
+          <li key={5}>
             <p>
               <strong>
                 <i>Homo erectus</i>
@@ -158,7 +158,7 @@ export default function Main() {
               e usa uma linguagem mais complexa. Ele é o descobridor do fogo.
             </p>
           </li>
-          <li>
+          <li key={6}>
             <p>
               <strong>
                 <i>Homem de Neandertal</i>
@@ -170,7 +170,7 @@ export default function Main() {
               os primeiros humanos modernos, mas de alguma forma desapareceu.
             </p>
           </li>
-          <li>
+          <li key={7}>
             <p>
               <strong>
                 <i>Homo sapiens</i>
@@ -308,41 +308,41 @@ export default function Main() {
         <h3>Material extra:</h3>
 
         <ul>
-          <li>
+          <li key={1}>
             <a href="https://youtu.be/Nwt4WZN6ydk">A origem do homem (Filme)</a>
           </li>
-          <li>
+          <li key={2}>
             <a href="https://youtu.be/iwk-W5n3CIo">
               A origem da humanidade (Filme)
             </a>
           </li>
-          <li>
+          <li key={3}>
             <a href="https://youtu.be/PY95BeGF5RY">
               A evolução do ser humano (Documentário)
             </a>
           </li>
-          <li>
+          <li key={4}>
             <a href="https://youtu.be/pDCgcKhg3QI">
               A evolução humana (Vídeo curto explicativo)
             </a>
           </li>
-          <li>
+          <li key={5}>
             <a href="https://youtu.be/Comf5vc56zc">
               Evolução humana (Vídeo curto explicativo)
             </a>
           </li>
-          <li>
+          <li key={6}>
             <a href="https://youtu.be/jeT89SMzE-o">
               Evidências de que a evolução humana não acabou (Documentário)
             </a>
           </li>
-          <li>
+          <li key={7}>
             <a href="https://youtu.be/jJA7naWfXmU">
               Sete espécies de seres humanos que já existiram (Vídeo curto
               explicativo)
             </a>
           </li>
-          <li>
+          <li key={8}>
             <a href="https://www.netflix.com/br/title/81139212?s=a&trkid=13747225&t=cp&vlang=pt&clip=81456289 ">
               Corpo humano: nosso mundo interior (Série)
             </a>
@@ -352,17 +352,17 @@ export default function Main() {
         <h3>Referencias biográficas</h3>
 
         <ul>
-          <li>
+          <li key={1}>
             <a href="https://www.stoodi.com.br/blog/biologia/evolucao-humana/amp/#amp_tf=De%20%251%24s&aoh=16660459578590&referrer=https%3A%2F%2Fwww.google.com">
               Stoodi.com.br
             </a>
           </li>
-          <li>
+          <li key={2}>
             <a href="https://www.sohistoria.com.br/ef2/evolucao/p2.php">
               Soshitoria.com.br
             </a>
           </li>
-          <li>
+          <li key={3}>
             <a href="https://www.megacurioso.com.br/evolucao/40008-8-fatos-que-voce-ainda-nao-sabia-sobre-a-evolucao-humana.htm">
               Megacurioso.com.br
             </a>

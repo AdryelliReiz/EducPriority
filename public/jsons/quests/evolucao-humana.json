@@ -1,0 +1,186 @@
+{
+  "perguntas": [
+    {
+      "id": 1,
+      "tema": "Biologia - Evolução",
+      "enunciado": "Quem foi o primeiro um biólogo(a) a propor a relação de parentesco da espécie humana com os grandes macacos?",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "Rosalind Franklin"
+        },
+        {
+          "letra": "b",
+          "resposta": "Aristóteles "
+        },
+        {
+          "letra": "c",
+          "resposta": "Lineu"
+        },
+        {
+          "letra": "d",
+          "resposta": "Charles Darwin "
+        },{
+          "letra": "e",
+          "resposta": "James Watson "
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "tema": "Biologia - Evolução",
+      "enunciado": "Há quantos anos viveram os mais antigos primatas? ",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "70 milhões de anos"
+        },
+        {
+          "letra": "b",
+          "resposta": "1 milhão de anos"
+        },
+        {
+          "letra": "c",
+          "resposta": "5 milhões de anos"
+        },
+        {
+          "letra": "d",
+          "resposta": "3 milhões de anos "
+        },{
+          "letra": "e",
+          "resposta": "14 milhões de anos"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "tema": "Biologia - Evolução",
+      "enunciado": "A evolução da espécie humana foi aproximadamente iniciada há quantos anos?",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "2 milhões de anos "
+        },
+        {
+          "letra": "b",
+          "resposta": "1 milhão de anos"
+        },
+        {
+          "letra": "c",
+          "resposta": "6 milhões de anos"
+        },
+        {
+          "letra": "d",
+          "resposta": "5 milhões de anos"
+        },{
+          "letra": "e",
+          "resposta": "Aproximadamente 3 milhões de anos "
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "tema": "Biologia - Evolução",
+      "enunciado": "Qual o conceito biológico da evolução humana? ",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "Conjunto de comportamentos"
+        },
+        {
+          "letra": "b",
+          "resposta": "Conhecimento avançado de espécies"
+        },
+        {
+          "letra": "c",
+          "resposta": " Exclusividade da espécie"
+        },
+        {
+          "letra": "d",
+          "resposta": "Desenvolvimento e as mudanças que os humanos experimentaram ao longo da história"
+        },{
+          "letra": "e",
+          "resposta": "Diferença entre os comportamentos dos macacos e da espécie humana"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "tema": "Biologia - Evolução",
+      "enunciado": "Qual continente é considerado o 'berso da humanidade'?",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "América"
+        },
+        {
+          "letra": "b",
+          "resposta": "África"
+        },
+        {
+          "letra": "c",
+          "resposta": "Ásia"
+        },
+        {
+          "letra": "d",
+          "resposta": "Europa"
+        },{
+          "letra": "e",
+          "resposta": "Oceania"
+        }
+      ]
+    },
+    {
+      "id": 6,
+      "tema": "Biologia - Evolução",
+      "enunciado": "Qual é o ancestral mais próximo do ser humano?",
+      "alternativas": [
+        {
+          "letra": "a",
+          "resposta": "Primatas"
+        },
+        {
+          "letra": "b",
+          "resposta": "Hominoides"
+        },
+        {
+          "letra": "c",
+          "resposta": "Homo habilis"
+        },
+        {
+          "letra": "d",
+          "resposta": "Homo erectus"
+        },{
+          "letra": "e",
+          "resposta": "Homo sapiens"
+        }
+      ]
+    }
+  ],
+  "respostas": [
+    {
+      "id": 1,
+      "resposta": "d"
+    },
+    {
+      "id": 2,
+      "resposta": "a"
+    },
+    {
+      "id": 3,
+      "resposta": "c"
+    },
+    {
+      "id": 4,
+      "resposta": "d"
+    },
+    {
+      "id": 5,
+      "resposta": "b"
+    },
+    {
+      "id": 6,
+      "resposta": "e"
+    }
+  ]
+}

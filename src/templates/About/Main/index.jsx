@@ -23,8 +23,8 @@ export default function Main() {
           conteúdo.
         </p>
         <p>
-          Possuímos direitos de imagens dos participantes que estão enexadas ao
-          website. <strong>Por favor, não fazer uso das mesmas.</strong>
+          Possuímos direitos de imagens dos participantes que estão anexadas ao
+          website. <strong>Por favor, não fazer uso das mesmas</strong>.
         </p>
       </div>
 

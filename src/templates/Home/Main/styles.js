@@ -73,7 +73,7 @@ export const Main = styled.main`
         color: var(--black);
       }
 
-      .item {
+      .item a {
         display: flex;
         flex-direction: column;
         align-items: center;

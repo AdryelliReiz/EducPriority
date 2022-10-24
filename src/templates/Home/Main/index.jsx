@@ -28,16 +28,28 @@ export default function Main() {
 
           <div className="nav-bar">
             <div className="item">
-              <MdOutlineInfo size={24} />
-              <p>About</p>
+              <Link href="/about">
+                <a>
+                  <MdOutlineInfo size={30} />
+                  <p>About</p>
+                </a>
+              </Link>
             </div>
             <div className="item">
-              <GrHomeRounded size={24} />
-              <p>Home</p>
+              <Link href="/">
+                <a>
+                  <GrHomeRounded size={30} />
+                  <p>Home</p>
+                </a>
+              </Link>
             </div>
             <div className="item">
-              <GoTasklist size={24} />
-              <p>Quests</p>
+              <Link href="/quests">
+                <a>
+                  <GoTasklist size={30} />
+                  <p>Quests</p>
+                </a>
+              </Link>
             </div>
           </div>
         </div>

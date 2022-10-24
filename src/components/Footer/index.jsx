@@ -11,17 +11,17 @@ export default function Footer() {
 
       <S.Footer>
         <div className="links">
-          <Link href="">
+          <Link href="/about">
             <a>Sobre nós</a>
           </Link>
-          <Link href="">
+          <Link href="/contents">
             <a>Conteúdos</a>
           </Link>
-          <Link href="">
+          <Link href="/quests">
             <a>Simulados</a>
           </Link>
-          <Link href="">
-            <a>Desenvolvedor do Site</a>
+          <Link href="https://github.com/AdryelliReiz">
+            <a target="_blank">Desenvolvedor do Site</a>
           </Link>
         </div>
 

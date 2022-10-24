@@ -9,6 +9,7 @@ export const Main = styled.main`
   .list-section {
     margin-bottom: 2rem;
     h3 {
+      font-size: 1.5rem;
       color: var(--black);
     }
 
@@ -62,6 +63,7 @@ export const Menu = styled.div`
   .topics {
     .topic {
       h3 {
+        font-size: 1.5rem;
         color: var(--black);
       }
 

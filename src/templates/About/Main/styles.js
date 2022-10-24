@@ -5,10 +5,12 @@ export const Section = styled.section`
   padding: 2rem;
 
   h3 {
+    font-size: 1.5rem;
     color: var(--black);
   }
 
   p {
+    font-size: 20px;
     color: var(--gray);
     text-align: justify;
   }
@@ -51,10 +53,12 @@ export const Section = styled.section`
           color: var(--black);
           font-weight: 600;
           p {
+            font-size: 20px;
             text-align: center;
           }
 
           span {
+            font-size: 18px;
             background-color: var(--violet-light-1);
             padding: 0.5em 2rem;
             border-radius: 12px;

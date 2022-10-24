@@ -13,7 +13,7 @@ export default function Main() {
       <S.Section>
         <S.Main>
           <div className="list-section">
-            <h3>Areás do conhecimento</h3>
+            <h3>Áreas do conhecimento</h3>
 
             <ul>
               <li onClick={() => setIsMenuOpen(true)}>
@@ -60,16 +60,20 @@ export default function Main() {
 
             <ul>
               <li>
-                <div className="content allow">
-                  <Image
-                    src="/imgs/tests.svg"
-                    width="48"
-                    height="48"
-                    alt="tests"
-                  />
+                <Link href="/quests">
+                  <a>
+                    <div className="content allow">
+                      <Image
+                        src="/imgs/tests.svg"
+                        width="48"
+                        height="48"
+                        alt="tests"
+                      />
 
-                  <p>Provas e Gabaritos</p>
-                </div>
+                      <p>Provas e Gabaritos</p>
+                    </div>
+                  </a>
+                </Link>
               </li>
             </ul>
           </div>
@@ -95,7 +99,7 @@ export default function Main() {
               <h3>3° Nível</h3>
               <ul>
                 <li>
-                  <Link href="/contents/biology/evolucao-humana">
+                  <Link href="/biology/evolucao-humana">
                     <a>Evolução humana</a>
                   </Link>
                 </li>

@@ -1,0 +1,23 @@
+{
+  "intro": {
+    "title": "Introdução",
+    "texts": [
+      {
+        "content": "A evolução humana corresponde ao processo de mudanças que originou os seres humanos e os diferenciou como uma espécie. ",
+        "photo": ""
+      },
+      {
+        "content": "As características próprias da espécie humana foram construídas ao longo de milhares de anos, com a evolução dos primatas. Charles Darwin foi o primeiro a propor a relação de parentesco da espécie humana com os grandes macacos, os antropoides. Atualmente, os cientistas acreditam que esses antropoides e a espécie humana tiveram um ancestral comum, cerca de 8 a 5 milhões de anos atrás. A evidência desse fato é a grande semelhança entre os humanos e os macacos antropoides, como o chimpanzé. ",
+        "photo": ""
+      },
+      {
+        "content": "A evolução da espécie humana foi iniciada há pelo menos 6 milhões de anos. Nesse período, uma população de primatas do noroeste da África se dividiu em duas linhagens que passaram a evoluir independentemente.  ",
+        "photo": ""
+      },
+      {
+        "content": "O primeiro grupo permaneceu no ambiente da floresta tropical e originou os chimpanzés. O segundo grupo se adaptou a ambientes mais abertos, como as savanas africanas, dando origem ao Homo sapiens. Por isso, o continente africano é chamado de <strong>berço da humanidade<strong/>. ",
+        "photo": ""
+      }
+    ]
+  }
+}

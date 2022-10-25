@@ -77,4 +77,53 @@ export const Section = styled.section`
       }
     }
   }
+
+  @media (min-width: 990px) {
+    max-width: 960px;
+    margin: 0 auto;
+
+    h2 {
+      font-size: 1.2rem;
+    }
+
+    .quests-container {
+      .quest {
+        .quest-header {
+          h3 {
+            font-size: 18px;
+          }
+        }
+        .quest-content {
+          p {
+            font-size: 16px;
+          }
+        }
+
+        .quest-alternatives {
+          .alternative {
+            font-size: 16px;
+          }
+        }
+
+        .quest-response {
+          margin-top: 2rem;
+          display: flex;
+          justify-content: center;
+
+          a {
+            padding: 8px 12px;
+            font-size: 18px;
+          }
+        }
+      }
+    }
+
+    .response-container {
+      .response {
+        p {
+          font-size: 16px;
+        }
+      }
+    }
+  }
 `;

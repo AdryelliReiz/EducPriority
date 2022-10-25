@@ -4,6 +4,11 @@ export const Section = styled.section`
   width: 100%;
   padding: 2rem;
 
+  @media (min-width: 990px) {
+    max-width: 960px;
+    margin: 0 auto;
+  }
+
   .content {
     h3 {
       font-size: 1.5rem;
@@ -42,6 +47,11 @@ export const Section = styled.section`
       :hover {
         text-decoration: underline;
       }
+    }
+
+    .image {
+      display: flex;
+      justify-content: center;
     }
   }
 

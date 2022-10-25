@@ -19,9 +19,6 @@ export const Section = styled.section`
     color: var(--violet);
   }
 
-  .about {
-  }
-
   .equipe {
     margin-top: 2rem;
 
@@ -50,6 +47,9 @@ export const Section = styled.section`
         }
 
         .details {
+          display: flex;
+          flex-direction: column;
+          align-items: center;
           color: var(--black);
           font-weight: 600;
           p {
@@ -60,7 +60,7 @@ export const Section = styled.section`
           span {
             font-size: 18px;
             background-color: var(--violet-light-1);
-            padding: 0.5em 2rem;
+            padding: 0.5em 1rem;
             border-radius: 12px;
           }
         }
@@ -75,6 +75,35 @@ export const Section = styled.section`
       .contributors {
         display: grid;
         grid-template-columns: 1fr 1fr;
+      }
+    }
+  }
+
+  @media (min-width: 990px) {
+    max-width: 960px;
+    margin: 0 auto;
+
+    h3 {
+      font-size: 1.2rem;
+    }
+
+    p {
+      font-size: 18px;
+    }
+
+    .equipe {
+      .contributors {
+        .contributor-perfil {
+          .details {
+            p {
+              font-size: 18px;
+            }
+
+            span {
+              font-size: 14px;
+            }
+          }
+        }
       }
     }
   }

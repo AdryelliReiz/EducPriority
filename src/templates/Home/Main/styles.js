@@ -7,6 +7,13 @@ export const Section = styled.section`
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+
+  padding: 2rem;
+
+  @media (min-width: 690px) {
+    max-width: 620px;
+    margin: 0 auto;
+  }
 `;
 
 export const Thumb = styled.div`

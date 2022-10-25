@@ -1,26 +1,26 @@
 import styled from "styled-components";
 
-export const Wave = styled.div`
-  background-color: var(--violet-light-3);
-`;
+export const Wave = styled.div``;
 
 export const Footer = styled.section`
   width: 100%;
-  margin-top: -20px;
-  padding: 2rem 1.5rem 0.5em;
+  padding: 3rem 1.5rem 0.5em;
   background-color: var(--violet-light-1);
 
-  .links {
-    display: flex;
-    flex-direction: column;
-    gap: 0.5rem;
-    font-size: 18px;
-    font-weight: 600;
-    color: var(--black);
+  .content {
+    .links {
+      display: flex;
+      flex-direction: column;
+      gap: 0.5rem;
+      font-size: 18px;
+      font-weight: 600;
+      color: var(--black);
+    }
   }
 
   .info {
-    P {
+    margin-top: 2rem;
+    p {
       font-size: 18px;
       width: 100%;
       color: var(--gray);
@@ -34,6 +34,19 @@ export const Footer = styled.section`
         background-color: var(--gray-light);
         margin-bottom: 8px;
       }
+    }
+  }
+
+  @media (min-width: 990px) {
+    border-radius: 0;
+
+    .content {
+      max-width: 960px;
+      margin: 0 auto;
+    }
+
+    h2 {
+      font-size: 1.2rem;
     }
   }
 `;

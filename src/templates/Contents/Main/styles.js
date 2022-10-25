@@ -3,6 +3,11 @@ import styled from "styled-components";
 export const Section = styled.section`
   width: 100%;
   padding: 2rem;
+
+  @media (min-width: 990px) {
+    max-width: 960px;
+    margin: 0 auto;
+  }
 `;
 
 export const Main = styled.main`

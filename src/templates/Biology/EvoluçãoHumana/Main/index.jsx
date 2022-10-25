@@ -36,6 +36,15 @@ export default function Main() {
           <strong>berço da humanidade</strong>.
         </p>
 
+        <div className="image">
+          <Image
+            src="/imgs/intro.jpeg"
+            width="440"
+            height="200"
+            alt="evolução humana"
+          />
+        </div>
+
         <h3>O que é?</h3>
 
         <p>
@@ -61,6 +70,16 @@ export default function Main() {
           estruturação de uma teoria evolucionista que mudou para sempre o
           conhecimento científico sobre as espécies.
         </p>
+
+        <div className="image">
+          <Image
+            src="/imgs/Charles-Darwin.jpg"
+            width="440"
+            height="320"
+            alt="evolução humana"
+          />
+        </div>
+
         <p>
           Considerado um dos principais e mais renomados biólogos da História
           Moderna, Darwin dedicou anos de sua vida percorrendo diferentes
@@ -97,6 +116,15 @@ export default function Main() {
         </p>
 
         <h3>Etapas da evolução humana</h3>
+
+        <div className="image">
+          <Image
+            src="/imgs/tipos.png"
+            width="440"
+            height="220"
+            alt="evolução humana"
+          />
+        </div>
 
         <ul>
           <li key={1}>
@@ -146,6 +174,15 @@ export default function Main() {
               rudimentar. Seus restos mortais só foram encontrados na África.
             </p>
           </li>
+
+          <div className="image">
+            <Image
+              src="/imgs/cranios.jpeg"
+              width="440"
+              height="200"
+              alt="evolução humana"
+            />
+          </div>
           <li key={5}>
             <p>
               <strong>
@@ -170,6 +207,7 @@ export default function Main() {
               os primeiros humanos modernos, mas de alguma forma desapareceu.
             </p>
           </li>
+
           <li key={7}>
             <p>
               <strong>
@@ -189,6 +227,15 @@ export default function Main() {
           1 – Nossos ancestrais deixaram a África há mais de 1 milhão de anos
         </h4>
 
+        <div className="image">
+          <Image
+            src="/imgs/curiosidade-1.png"
+            width="440"
+            height="320"
+            alt="evolução humana"
+          />
+        </div>
+
         <p>
           Apesar de estarmos acostumados a ouvir que o H<i>omo sapiens</i>{" "}
           começou a sair do continente africano há 80 mil anos, a verdade é que
@@ -203,6 +250,15 @@ export default function Main() {
         </p>
 
         <h4>2 – Humanos têm baixa diversidade genética </h4>
+
+        <div className="image">
+          <Image
+            src="/imgs/curiosidade-2.png"
+            width="440"
+            height="220"
+            alt="evolução humana"
+          />
+        </div>
 
         <p>
           Entre os primatas, somos os menos desenvolvidos, geneticamente. O que
@@ -249,6 +305,15 @@ export default function Main() {
 
         <h4>5 – Humanos usavam embarcações há 50 mil anos </h4>
 
+        <div className="image">
+          <Image
+            src="/imgs/curiosidade-5.jpeg"
+            width="440"
+            height="260"
+            alt="evolução humana"
+          />
+        </div>
+
         <p>
           A Austrália foi descoberta por humanos há 50 mil anos. Essas pessoas
           saíram da África e chegaram até lá com o uso de pequenas jangadas
@@ -275,6 +340,15 @@ export default function Main() {
         </p>
 
         <h4>7 – O fogo sempre esteve presente </h4>
+
+        <div className="image">
+          <Image
+            src="/imgs/curiosidade-7.jpg"
+            width="440"
+            height="260"
+            alt="evolução humana"
+          />
+        </div>
 
         <p>
           Desde cedo aprendemos que os <i>Homo sapiens</i> evoluíram depois de
